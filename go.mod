@@ -9,6 +9,9 @@ require (
 	github.com/libdns/digitalocean v0.0.0-20250606071607-dfa7af5c2e31
 )
 
+// TODO: (jpd) remove this replace once `github.com/libdns/digitalocean` is updated
+replace github.com/libdns/digitalocean => github.com/joaodubas/libdns-digitalocean v0.0.0-20250723100459-3e68a175001e
+
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/caddyserver/certmagic v0.23.0 // indirect
